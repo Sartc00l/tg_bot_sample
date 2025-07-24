@@ -45,7 +45,7 @@ async def start_command(message: types.Message):
         reply_markup=main_keyboard
     )
 
-# Кнопка 1: Хардкод текст + стандартное фото
+
 @dp.message(lambda message: message.text == "Дефолт сообщение")
 async def send_hardcoded_with_photo(message: types.Message):
     try:
