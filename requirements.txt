@@ -1,1 +1,2 @@
 aiogram==3.21.0
+PyInstaller==6.14.2
